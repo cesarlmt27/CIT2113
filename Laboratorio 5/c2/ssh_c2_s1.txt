@@ -1,0 +1,299 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    172.20.0.3            172.20.0.5            TCP      74     58110 → 22 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 TSval=1332217498 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000027760    172.20.0.5            172.20.0.3            TCP      74     22 → 58110 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM=1 TSval=2489336545 TSecr=1332217498 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000042531    172.20.0.3            172.20.0.5            TCP      66     58110 → 22 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=1332217498 TSecr=2489336545
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.000591378    172.20.0.3            172.20.0.5            SSHv2    107    Client: Protocol (SSH-2.0-OpenSSH_7.3p1 Ubuntu-1ubuntu0.1)
+
+Frame 4: 107 bytes on wire (856 bits), 107 bytes captured (856 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1, Ack: 1, Len: 41
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.000600898    172.20.0.5            172.20.0.3            TCP      66     22 → 58110 [ACK] Seq=1 Ack=42 Win=65152 Len=0 TSval=2489336546 TSecr=1332217499
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 1, Ack: 42, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.007300162    172.20.0.5            172.20.0.3            SSHv2    107    Server: Protocol (SSH-2.0-OpenSSH_8.3p1 Ubuntu-1ubuntu0.1)
+
+Frame 6: 107 bytes on wire (856 bits), 107 bytes captured (856 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 1, Ack: 42, Len: 41
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.007379192    172.20.0.3            172.20.0.5            TCP      66     58110 → 22 [ACK] Seq=42 Ack=42 Win=64256 Len=0 TSval=1332217505 TSecr=2489336552
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 42, Ack: 42, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.007552670    172.20.0.3            172.20.0.5            SSHv2    1498   Client: Key Exchange Init
+
+Frame 8: 1498 bytes on wire (11984 bits), 1498 bytes captured (11984 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 42, Ack: 42, Len: 1432
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.008484165    172.20.0.5            172.20.0.3            SSHv2    1122   Server: Key Exchange Init
+
+Frame 9: 1122 bytes on wire (8976 bits), 1122 bytes captured (8976 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 42, Ack: 1474, Len: 1056
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.009707818    172.20.0.3            172.20.0.5            SSHv2    114    Client: Elliptic Curve Diffie-Hellman Key Exchange Init
+
+Frame 10: 114 bytes on wire (912 bits), 114 bytes captured (912 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1474, Ack: 1098, Len: 48
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.012418773    172.20.0.5            172.20.0.3            SSHv2    574    Server: Elliptic Curve Diffie-Hellman Key Exchange Reply, New Keys, Encrypted packet (len=228)
+
+Frame 11: 574 bytes on wire (4592 bits), 574 bytes captured (4592 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 1098, Ack: 1522, Len: 508
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.054613391    172.20.0.3            172.20.0.5            TCP      66     58110 → 22 [ACK] Seq=1522 Ack=1606 Win=64128 Len=0 TSval=1332217553 TSecr=2489336558
+
+Frame 12: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1522, Ack: 1606, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 2.463166624    172.20.0.3            172.20.0.5            SSHv2    82     Client: New Keys
+
+Frame 13: 82 bytes on wire (656 bits), 82 bytes captured (656 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1522, Ack: 1606, Len: 16
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 2.508648528    172.20.0.5            172.20.0.3            TCP      66     22 → 58110 [ACK] Seq=1606 Ack=1538 Win=64128 Len=0 TSval=2489339054 TSecr=1332219961
+
+Frame 14: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 1606, Ack: 1538, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 2.508668028    172.20.0.3            172.20.0.5            SSHv2    110    Client: Encrypted packet (len=44)
+
+Frame 15: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1538, Ack: 1606, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 2.508725507    172.20.0.5            172.20.0.3            TCP      66     22 → 58110 [ACK] Seq=1606 Ack=1582 Win=64128 Len=0 TSval=2489339054 TSecr=1332220007
+
+Frame 16: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 1606, Ack: 1582, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 2.508906046    172.20.0.5            172.20.0.3            SSHv2    110    Server: Encrypted packet (len=44)
+
+Frame 17: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 1606, Ack: 1582, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 2.508964457    172.20.0.3            172.20.0.5            TCP      66     58110 → 22 [ACK] Seq=1582 Ack=1650 Win=64128 Len=0 TSval=1332220007 TSecr=2489339054
+
+Frame 18: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1582, Ack: 1650, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 2.509040866    172.20.0.3            172.20.0.5            SSHv2    126    Client: Encrypted packet (len=60)
+
+Frame 19: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1582, Ack: 1650, Len: 60
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 2.518622674    172.20.0.5            172.20.0.3            SSHv2    118    Server: Encrypted packet (len=52)
+
+Frame 20: 118 bytes on wire (944 bits), 118 bytes captured (944 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 1650, Ack: 1642, Len: 52
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 2.561569952    172.20.0.3            172.20.0.5            TCP      66     58110 → 22 [ACK] Seq=1642 Ack=1702 Win=64128 Len=0 TSval=1332220060 TSecr=2489339064
+
+Frame 21: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1642, Ack: 1702, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 5.035289551    172.20.0.3            172.20.0.5            SSHv2    150    Client: Encrypted packet (len=84)
+
+Frame 22: 150 bytes on wire (1200 bits), 150 bytes captured (1200 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1642, Ack: 1702, Len: 84
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 5.050832895    172.20.0.5            172.20.0.3            SSHv2    94     Server: Encrypted packet (len=28)
+
+Frame 23: 94 bytes on wire (752 bits), 94 bytes captured (752 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 1702, Ack: 1726, Len: 28
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 5.050848876    172.20.0.3            172.20.0.5            TCP      66     58110 → 22 [ACK] Seq=1726 Ack=1730 Win=64128 Len=0 TSval=1332222549 TSecr=2489341596
+
+Frame 24: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1726, Ack: 1730, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 5.051878520    172.20.0.3            172.20.0.5            SSHv2    178    Client: Encrypted packet (len=112)
+
+Frame 25: 178 bytes on wire (1424 bits), 178 bytes captured (1424 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1726, Ack: 1730, Len: 112
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 5.068028384    172.20.0.5            172.20.0.3            SSHv2    694    Server: Encrypted packet (len=628)
+
+Frame 26: 694 bytes on wire (5552 bits), 694 bytes captured (5552 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 1730, Ack: 1838, Len: 628
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 5.114683369    172.20.0.3            172.20.0.5            TCP      66     58110 → 22 [ACK] Seq=1838 Ack=2358 Win=64128 Len=0 TSval=1332222613 TSecr=2489341613
+
+Frame 27: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1838, Ack: 2358, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 5.114703769    172.20.0.5            172.20.0.3            SSHv2    110    Server: Encrypted packet (len=44)
+
+Frame 28: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 2358, Ack: 1838, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 5.114760939    172.20.0.3            172.20.0.5            TCP      66     58110 → 22 [ACK] Seq=1838 Ack=2402 Win=64128 Len=0 TSval=1332222613 TSecr=2489341660
+
+Frame 29: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1838, Ack: 2402, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 5.114907318    172.20.0.3            172.20.0.5            SSHv2    442    Client: Encrypted packet (len=376)
+
+Frame 30: 442 bytes on wire (3536 bits), 442 bytes captured (3536 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 1838, Ack: 2402, Len: 376
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 5.116354700    172.20.0.5            172.20.0.3            SSHv2    174    Server: Encrypted packet (len=108)
+
+Frame 31: 174 bytes on wire (1392 bits), 174 bytes captured (1392 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 2402, Ack: 2214, Len: 108
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 5.116671908    172.20.0.5            172.20.0.3            SSHv2    566    Server: Encrypted packet (len=500)
+
+Frame 32: 566 bytes on wire (4528 bits), 566 bytes captured (4528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 2510, Ack: 2214, Len: 500
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 5.116715937    172.20.0.3            172.20.0.5            TCP      66     58110 → 22 [ACK] Seq=2214 Ack=3010 Win=64128 Len=0 TSval=1332222615 TSecr=2489341661
+
+Frame 33: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 2214, Ack: 3010, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 5.126676713    172.20.0.5            172.20.0.3            SSHv2    150    Server: Encrypted packet (len=84)
+
+Frame 34: 150 bytes on wire (1200 bits), 150 bytes captured (1200 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:05 (02:42:ac:14:00:05), Dst: 02:42:ac:14:00:03 (02:42:ac:14:00:03)
+Internet Protocol Version 4, Src: 172.20.0.5, Dst: 172.20.0.3
+Transmission Control Protocol, Src Port: 22, Dst Port: 58110, Seq: 3010, Ack: 2214, Len: 84
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 5.179243947    172.20.0.3            172.20.0.5            TCP      66     58110 → 22 [ACK] Seq=2214 Ack=3094 Win=64128 Len=0 TSval=1332222677 TSecr=2489341672
+
+Frame 35: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lab5, id 0
+Ethernet II, Src: 02:42:ac:14:00:03 (02:42:ac:14:00:03), Dst: 02:42:ac:14:00:05 (02:42:ac:14:00:05)
+Internet Protocol Version 4, Src: 172.20.0.3, Dst: 172.20.0.5
+Transmission Control Protocol, Src Port: 58110, Dst Port: 22, Seq: 2214, Ack: 3094, Len: 0
