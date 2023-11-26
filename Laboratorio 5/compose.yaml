@@ -1,0 +1,45 @@
+services:
+  c4s1:
+    build:
+      context: ./c4s1/
+      dockerfile: Dockerfile
+    container_name: c4s1
+    networks:
+      - my_network
+
+  c1:
+    build:
+      context: ./c1/
+      dockerfile: Dockerfile
+    container_name: c1
+    networks:
+      - my_network
+
+  c2:
+    build:
+      context: ./c2/
+      dockerfile: Dockerfile
+    container_name: c2
+    networks:
+      - my_network
+
+  c3:
+    build:
+      context: ./c3/
+      dockerfile: Dockerfile
+    container_name: c3
+    networks:
+      - my_network
+
+  modificado:
+    build:
+      context: ./modificado/
+      dockerfile: Dockerfile
+    container_name: modificado
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver_opts:
+      com.docker.network.bridge.name: lab5
